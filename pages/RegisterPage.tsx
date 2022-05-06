@@ -18,7 +18,7 @@ export function RegisterPage() {
       style={styles.bgImage}
     >
       <View style={styles.container}>
-        <Text style={styles.title}>Registration</Text>
+        <Text style={styles.label}>Registration</Text>
         <TextInput
           style={styles.input}
           placeholder="Username"
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     justifyContent: `center`,
   },
 
-  title: {
+  label: {
     fontSize: 30,
     color: `blue`,
     textAlign: `center`,

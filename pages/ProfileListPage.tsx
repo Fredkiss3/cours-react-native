@@ -45,12 +45,14 @@ export function ProfileListPage() {
           key={profile.name}
           profile={profile}
           open={currentProfileIndex === index}
-          onToggleOpen={() => setCurrentProfileIndex(old   => {
-            if (old === index) {
-              return -1;
-            }
-            return index;
-          })}
+          onToggleOpen={() =>
+            setCurrentProfileIndex((old) => {
+              if (old === index) {
+                return -1;
+              }
+              return index;
+            })
+          }
         />
       ))}
     </ScrollView>

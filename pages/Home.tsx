@@ -35,6 +35,13 @@ export function Home({ navigation }: HomeProps) {
           navigation.navigate("Profile List");
         }}
       />
+
+      <Button
+        title={`Convertisseur Page`}
+        onPress={() => {
+          navigation.navigate("Convertisseur");
+        }}
+      />
     </View>
   );
 }

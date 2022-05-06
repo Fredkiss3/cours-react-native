@@ -16,7 +16,7 @@ export function FilmList({}: FilmListProps) {
         setFilms(
           data.results.map((film: any) => ({
             id: film.id,
-            title: film.title,
+            label: film.title,
             poster_uri: film.poster_path,
             description: film.overview,
             release_date: film.release_date,
