@@ -2,14 +2,14 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, StyleSheet } from "react-native";
 import React from "react";
 
-import { NavigationContainer } from "@react-navigation/native";
+// import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { FilmList } from "./pages/FilmList";
-import { Home } from "./pages/Home";
-import { RegisterPage } from "./pages/RegisterPage";
-import { ProfileListPage } from "./pages/ProfileListPage";
-import { Convertisseur } from "./pages/Convertisseur";
-import { StackContainer } from "./pages/Convertisseur/Stack";
+// import { FilmList } from "./pages/FilmList";
+// import { Home } from "./pages/Home";
+// import { RegisterPage } from "./pages/RegisterPage";
+// import { ProfileListPage } from "./pages/ProfileListPage";
+// import { Convertisseur } from "./pages/Convertisseur";
+import { StackContainer } from "./pages/Ecommerce/Stack";
 
 const Stack = createNativeStackNavigator();
 
